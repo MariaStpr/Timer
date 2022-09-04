@@ -4,7 +4,6 @@ export default class Timer {
     this.timerId = null;
     this.timeNumbers = time;
     this.finishMessage = showFinishMessage;
-    this.time = time;
   }
 
   callCountDiff() {
@@ -44,6 +43,6 @@ export default class Timer {
   }
 
   roundTime(time) {
-    return this.time < 10 ? `0${time}` : time;
+    return time < 10 ? `0${time}` : time;
   }
 }

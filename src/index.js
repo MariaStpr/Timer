@@ -1,4 +1,5 @@
 import Timer from './class.js';
+import '../style.css';
 
 const titleDate = document.querySelector('#title-date'); // Заголовок
 const date = document.querySelector('#date'); // Дата
